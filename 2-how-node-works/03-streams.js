@@ -27,7 +27,7 @@ server.on('request', (req, res) => {
   // });
 
   //💥solution 3
-  const readable = fs.createReadStream('2.HowNodeWorks/first.txt');
+  const readable = fs.createReadStream('2-how-node-works/first.txt');
   readable.pipe(res);
   //readableSource.pipe(writableDestination)
 });
